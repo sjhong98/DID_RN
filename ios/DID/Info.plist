@@ -49,8 +49,6 @@
 		<string>storykompassauth</string>
 		<string>kakaolink</string>
 	</array>
-
-
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -80,5 +78,10 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Ionicons.ttf</string>
+		<string>FontAwesome.ttf</string>
+	</array>
 </dict>
 </plist>
