@@ -1,4 +1,4 @@
-package com.did;
+package com.did2;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

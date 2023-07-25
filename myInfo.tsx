@@ -6,9 +6,10 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Colors, DebugInstructions, Header, LearnMoreLinks, ReloadInstructions, } from 'react-native/Libraries/NewAppScreen';
 
 import kakaoLogin from './assets/images/kakao_login';
+import  * as KakaoLogin from '@react-native-seoul/kakao-login';
 
 
-export default function QR(): JSX.Element {
+export default function MyInfo(): JSX.Element {
 
     return (
         <SafeAreaView style={{flex: 1, backgroundColor:'#fff'}}> 
@@ -16,7 +17,7 @@ export default function QR(): JSX.Element {
                 <Text style={{fontSize:60}}>DID</Text>
             </View>
             <View style={{backgroundColor:'#fff', flex:10}}>
-                <Text style={{fontSize:100}} >QR code</Text>
+                <Text style={{fontSize:100}} >MyInfo</Text>
 
             </View>
     </SafeAreaView>

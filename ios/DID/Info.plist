@@ -82,6 +82,7 @@
 	<array>
 		<string>Ionicons.ttf</string>
 		<string>FontAwesome.ttf</string>
+		<string>FontAwesome5.ttf</string>
 	</array>
 </dict>
 </plist>

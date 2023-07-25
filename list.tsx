@@ -6,7 +6,6 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Colors, DebugInstructions, Header, LearnMoreLinks, ReloadInstructions, } from 'react-native/Libraries/NewAppScreen';
 
 import kakaoLogin from './assets/images/kakao_login';
-import  * as KakaoLogin from '@react-native-seoul/kakao-login';
 
 
 export default function List(): JSX.Element {
